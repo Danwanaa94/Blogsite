@@ -2,7 +2,7 @@ import React from 'react'
 import Home from './pages/Home'
 import {Routes,Route, Navigate} from "react-router-dom"
 import About from './pages/About'
-import Blog from  './pages/Blog'
+import Blog from  './pages/Blog/Blog'
 
 function App() {
   return (
@@ -16,7 +16,8 @@ function App() {
     
 
     </div>
-  )
+    
+      )
 }
 
 export default App

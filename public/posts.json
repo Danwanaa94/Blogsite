@@ -1,0 +1,18 @@
+[
+    {
+        "id" : 1,
+        "image" : "1.png",
+        "slug" : "post-number-one",
+        "title" : "Marcus.com and our products",
+        "extract" : "Please not,we will not be able to maintain your Marcus Invest account.",
+        "body" : "At the moment, Marcus.com and our products are only available in the US. Depending on your current location"
+    },
+    {
+        "id" : 1,
+        "image" : "1.png",
+        "slug" : "post-numbr-one",
+        "title" : "Marcus.com and our products",
+        "extract" : "Please not,we will not be able to maintain your Marcus Invest account.",
+        "body" : "At the moment, Marcus.com and our products are only available in the US. Depending on your current location" 
+    }
+]
