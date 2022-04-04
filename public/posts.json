@@ -9,10 +9,27 @@
     },
     {
         "id" : 1,
-        "image" : "1.png",
+        "image" : "2.png",
         "slug" : "post-numbr-one",
-        "title" : "Marcus.com and our products",
+        "title" : "Marcus and our entertainment tools",
         "extract" : "Please not,we will not be able to maintain your Marcus Invest account.",
         "body" : "At the moment, Marcus.com and our products are only available in the US. Depending on your current location" 
+    },
+    {
+        "id" : 1,
+        "image" : "3.png",
+        "slug" : "post-numbr-one",
+        "title" : "Marcus and engineering",
+        "extract" : "Please not,we will  be able to maintain your Marcus Investment account on engineering.",
+        "body" : "At the moment, Marcus.com and our products are only available in the US. Depending on your current location" 
+    },
+    {
+        "id" : 1,
+        "image" : "4.png",
+        "slug" : "post-numbr-one",
+        "title" : "our electric bicycle",
+        "extract" : "Please not,we will be able to maintain your Marcus Invest account on electronics products.",
+        "body" : "At the moment, Marcus.com and our products are only available in the US. Depending on your current location" 
     }
+    
 ]

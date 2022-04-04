@@ -1,32 +1,31 @@
 import React from 'react'
 import withLayout from './withLayout'
+import {useContext} from 'react'
+import {AboutContext} from '../context/AboutContext'
 
 function About() {
+   const {about} = useContext(AboutContext)
   return (
-    <div>
-    <h1>About Me</h1>
-    <div>
-    <p>There is an unknown home stadium for the Black Stars. World Cup and Africa Cup 
-        of Nations qualifying matches have been played at the Essipong Stadium and Sekondi-Takoradi 
-        Stadium in Sekondi-Takoradi, the Len Clay Stadium, Kumasi Sports Stadium and Abrankese Stadium in Kumasi, 
-        the Cape Coast Sports Stadium in Cape Coast, the Accra Sports Stadium in the Accra and the Tamale Stadium 
-        in Tamale. Some smaller, regional stadia (stadiums) were also used in the 2002 Africa Cup of Nations qualifying
-         and 2004 African Cup of Nations qualification qualifying campaigns.</p>
+    <div style={{maxwidth:"700px",margin:"auto",padding:"20px 0"}}>
+      <h2>About Me</h2>
 
-    <p>There is an unknown home stadium for the Black Stars. World Cup and Africa Cup of Nations qualifying
-         matches have been played at the Essipong Stadium and Sekondi-Takoradi Stadium in Sekondi-Takoradi, the
-          Len Clay Stadium, Kumasi Sports Stadium and Abrankese Stadium in Kumasi, the Cape Coast Sports Stadium in
-           Cape Coast, the Accra Sports Stadium in the Accra and the Tamale Stadium in Tamale. Some smaller, 
-           regional stadia (stadiums) were also used in the 2002 Africa Cup of Nations qualifying and 2004 African Cup of 
-           Nations qualification qualifying campaigns.</p>
+      <div style={{marginTop:"10px"}}>
+        <h3>Name</h3>
+        <p>{About.name}</p>
+      </div>
+      <div style={{marginTop:"10px"}}>
+        <h3>Bio</h3>
+        <p>{about.bio}</p>
+      </div>
+      <div style={{marginTop:"10px"}}>
+        <h3>Hobbies</h3>
+        {
+          about.hobbies.map((hobby)=>(
+            <p key={hobby} style ={{display:"inline-block", marginRight:"10px"}}>{hobby}</p>
+          ))
+        }
+      </div>
 
-    <p>There is an unknown home stadium for the Black Stars. World Cup and Africa Cup of Nations qualifying matches 
-        have been played at the Essipong Stadium and Sekondi-Takoradi Stadium in Sekondi-Takoradi, the Len Clay Stadium,
-         Kumasi Sports Stadium and Abrankese Stadium in Kumasi, the Cape Coast Sports Stadium in Cape Coast, the Accra
-          Sports Stadium in the Accra and the Tamale Stadium in Tamale. Some smaller, regional stadia (stadiums) were 
-          also used in the 2002 Africa Cup of Nations qualifying and 2004 African Cup of Nations qualification
-           qualifying campaigns.</p>
-    </div>
     </div>
   )
 }
