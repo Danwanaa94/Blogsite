@@ -21,8 +21,8 @@ summary, time, mark, audio, video{
 }
 
 html, body, div#root{
-    height: 100px;
-    line-height: 1;
+    height: 100%;
+    line-height: 1.5;
 }
 nav ul{
     list-style: none;
